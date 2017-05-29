@@ -9,7 +9,7 @@ class DenemeController extends Controller
     public function ajaxtest()
     {
 
-        $msg = "test";
+        $msg = "test2";
         return [$msg];
 
     }
