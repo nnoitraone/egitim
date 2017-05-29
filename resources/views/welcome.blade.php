@@ -14,7 +14,7 @@
         </div>
         <div class="form" method="post" action="#">
           <form id="form">
-            <input type="hidden" name="_token" value="{{csrf_token()}}" />
+            <input type="hidden" name="_token"  id="token" value="{{csrf_token()}}" />
             <textarea id="veri"></textarea>
             <input type="submit" value="G" />
           </form>

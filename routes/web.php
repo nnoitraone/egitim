@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/ajaxtest','deneme@ajaxtest');
+Route::post('/ajaxtest','DenemeController@ajaxtest');

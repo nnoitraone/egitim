@@ -2,6 +2,7 @@ $(function(){
   $("#form").submit(function(){
     var veri=$("#veri").val();
     var token=$("#token").val();
+    console.log(token)
       $.ajax({
         url: '/ajaxtest',
         type: 'POST',
